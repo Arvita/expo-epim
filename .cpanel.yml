@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/arvm5443/public_html/sub_domain/expo-epim
+- /bin/cp -r * $DEPLOYPATH
